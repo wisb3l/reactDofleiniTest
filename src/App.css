@@ -1,0 +1,196 @@
+html,
+body {
+  margin: 0px !important;
+  height: 100% !important;
+}
+
+p,
+label {
+  color: rgb(152, 152, 152);
+}
+
+p{
+  margin-bottom: 10px !important;
+}
+
+.container {
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: 100% !important;
+  font-size: small;
+  line-height: normal;
+}
+
+.workArea {
+  border: rgb(233, 233, 233) solid 1px;
+  border-radius: 5px;
+  margin: 10px 0 10px 25px;
+  box-shadow: 0px 0px 15px rgb(233, 233, 233);
+  height: 100%;
+
+}
+
+.menuArea {
+  border-right: rgb(233, 233, 233) solid 2px;
+  top: 0 !important;
+  bottom: 0 !important;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  padding-top: 7px !important;
+}
+
+.welcomeImage {
+  height: 110px;
+}
+
+.welcomeArea,
+.completeProfileArea {
+  border: rgb(233, 233, 233) solid 1px;
+  box-shadow: 0px 0px 8px rgb(220, 220, 220);
+  margin: 20px 10px 10px 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.completeProfileArea {
+  margin: 15px 10px 10px 10px !important;
+}
+
+.welcomeTextArea h5,
+.welcomeTextArea h7 {
+  font-weight: bold !important
+}
+
+.doneBtn {
+  text-align: right;
+}
+
+.doneBtn a {
+  color: rgb(90, 162, 200);
+}
+
+.btn {
+  font-weight: bold !important;
+  font-size: smaller !important;
+  padding: 0 !important;
+}
+
+.progress {
+  border-radius: 15px !important;
+}
+
+.progress-bar {
+  background-image: linear-gradient(to right, rgba(17, 122, 175), rgba(13, 206, 230));
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: 50% !important;
+}
+
+.custom-control-label {
+  padding-top: 2px;
+}
+
+form {
+  margin-top: 8px;
+}
+
+.search-container {
+  border: solid 2px rgb(220, 220, 220);
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
+}
+
+.search-container input {
+  border: none !important;
+  width: 100%;
+}
+
+.search-container form {
+  margin-top: 0 !important
+}
+
+.search-container div.col-sm-10 {
+  padding: 0;
+}
+
+h5,
+h7,
+.menuArea a,
+strong {
+  color: rgb(41, 41, 41);
+}
+
+.menuElement {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.favoriteArea p:first-child{
+  margin-bottom: 0 !important;
+}
+
+.favoriteArea p{
+  font-size: smaller;
+}
+
+.importantParagraph{
+  font-weight: bold;
+}
+
+.colorColumn{
+  
+  width: 6px;
+  height: 33px;
+}
+
+.projectRow{
+  background-color: rgb(245, 246, 248);
+  box-shadow: 0px 3px 2px rgb(220, 220, 220);
+  margin-bottom: 8px;
+}
+
+.projectRow:hover{
+  cursor: pointer;
+  box-shadow: 0px 3px 2px rgb(90, 192, 235);
+}
+
+.projectRow p{
+  margin: 0 !important;
+}
+
+.noPadding{
+  padding: 0 !important;
+}
+
+.textProjectrow{
+  padding: 8px 20px 8px 0;
+}
+
+.menuArea  a:hover{
+  color: rgb(90, 162, 200);
+}
+
+.textProjectrow p{
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+
+.favoriteStar{
+  background-color: rgb(255, 198, 10);
+}
+
+.noFavoriteStar{
+  background-color: rgb(245, 246, 248);
+}
+
+.favoriteProject{
+  background-color: rgb(25, 214, 150);
+}
+
+.noFavoriteProject{
+  background-color: rgb(25, 176, 214);
+}
