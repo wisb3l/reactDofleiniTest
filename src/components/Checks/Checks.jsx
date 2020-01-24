@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 import Form from 'react-bootstrap/Form'
 
 //import { Test } from './Checks.styles';
@@ -35,7 +34,7 @@ class Checks extends PureComponent {
         label={this.props.label}
         id={this.props.id}
         checked={this.props.checked[this.props.element]}
-        onChange={this, ()=> this.changeStateElement(this)}
+        onChange={()=> this.changeStateElement(this)}
       />
       
     );

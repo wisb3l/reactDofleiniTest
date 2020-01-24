@@ -7,12 +7,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-import { faSearch, faOutdent, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faOutdent } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import datos from './data/data.js';
 import ProfileCheck from './components/ProfileCheck/ProfileCheck';
-import Project from './components/Project/Project';
 import WelcomeArea from './components/WelcomeArea/WelcomeArea';
 import ListFavoriteProjects from './components/ListFavoriteProjects/ListFavoriteProjects';
 import ListProjects from './components/ListProjects/ListProjects';
@@ -41,7 +40,7 @@ export default class App extends Component {
         if (p.key===item2.key) {
           item2.favorito=!item2.favorito
           return item2;
-        }
+        }else return item2
       });
       return item
     });

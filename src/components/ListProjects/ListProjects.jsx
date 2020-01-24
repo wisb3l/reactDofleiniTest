@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 import Project from '../Project/Project';
 //import { Test } from './ListProjects.styles';
 
