@@ -2,11 +2,20 @@ html,
 body {
   margin: 0px !important;
   height: 100% !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.icon{
+  cursor: pointer;
 }
 
 p,
 label {
   color: rgb(152, 152, 152);
+}
+
+label{
+  font-size: smaller;
 }
 
 p{
@@ -56,8 +65,7 @@ p{
   margin: 15px 10px 10px 10px !important;
 }
 
-.welcomeTextArea h5,
-.welcomeTextArea h7 {
+.welcomeTextArea h5 {
   font-weight: bold !important
 }
 
@@ -88,7 +96,7 @@ p{
 }
 
 .custom-control-label {
-  padding-top: 2px;
+  padding-top: 4px;
 }
 
 form {
@@ -167,6 +175,7 @@ strong {
 
 .textProjectrow{
   padding: 8px 20px 8px 0;
+  max-width: 80% !important;
 }
 
 .menuArea  a:hover{
@@ -193,4 +202,12 @@ strong {
 
 .noFavoriteProject{
   background-color: rgb(25, 176, 214);
+}
+
+.checkedCheckbox label {
+  color:rgb(113, 176, 207)
+}
+
+.menuElements{
+  margin-left: 6px;
 }
