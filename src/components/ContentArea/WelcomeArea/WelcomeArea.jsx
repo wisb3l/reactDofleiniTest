@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 
-import welcomeImagen from '../../resources/imagen.svg';
+import welcomeImagen from '../../../resources/imagen.svg';
 //import { Test } from './WelcomeArea.styles';
 
 export default class WelcomeArea extends PureComponent { 
